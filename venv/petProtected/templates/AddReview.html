@@ -1,0 +1,29 @@
+{% load static %}
+<html class="AddReview">
+  <head>
+    <meta charset="utf-8" />
+    <title>Add Review</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'css/style.css' %}"
+    />
+  </head>
+  <body>
+    <div class="Review-box">
+      <h2>Comments</h2>
+      <form action="#">
+        <input type="text" name="full_name" placeholder="שם מלא..." />
+        <input type="email" name="email" placeholder="אימייל..." />
+        <textarea
+          name="comment"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="תכתוב את התגובה שלך..."
+        ></textarea>
+        <button>שלח</button>
+      </form>
+    </div>
+  </body>
+</html>
