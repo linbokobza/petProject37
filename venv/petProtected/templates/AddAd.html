@@ -1,0 +1,51 @@
+{% load static %}
+<html class="AddAd">
+  <head>
+    <meta charset="utf-8" />
+    <title>Add Ad</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'css/style.css' %}"
+    />
+  </head>
+  <body>
+    <div class="addobject">
+      <h1>תן חפץ</h1>
+      <form class="state">
+        <input type="text" name="" placeholder="כותרת" />
+        <select class="category">
+          <option>קטגוריה</option>
+          <option>ביגוד</option>
+          <option>מזון</option>
+          <option>טקסטיל</option>
+          <option>אוכל</option>
+        </select>
+        <select class="tatcategory">
+          <option>תת קטגוריה</option>
+          <option>קולר</option>
+          <option>חולצה</option>
+          <option>מלונה</option>
+          <option>מיטה</option>
+          <option>נשכנים</option>
+          <option>כדורים</option>
+          <option>שמיכה</option>
+          <option>כלוב</option>
+          <option>מזון לכלבים</option>
+          <option>מזון לחתולים</option>
+        </select>
+        <input type="text" name="" placeholder="תיאור פריט" />
+        <select class="state">
+          <option>מצב פריט</option>
+          <option>כמו חדש</option>
+          <option>טוב</option>
+          <option>מעט פגום</option>
+        </select>
+        <a href="#"><input type="submit" value="הוספת תמונה" /></a>
+        <div class="send">
+          <a href="#"><input type="submit" value="שלח" /></a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

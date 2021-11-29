@@ -1,0 +1,78 @@
+{% load static %}
+<html class="homepage1">
+  <head>
+    <meta charset="utf-8" />
+    <title>Project Home</title>
+    <link rel="stylesheet" type="text/css"  href="{% static 'css/style.css' %}" />
+  </head>
+  <body>
+    <div class="topoptions">
+      <ul>
+        <li>
+          <a
+            href="posts"
+            >בית</a
+          >
+        </li>
+        <li><a href="#">אודות</a></li>
+        <li>
+          <a
+            href="addreview"
+            >הוספת ביקורת</a
+          >
+        </li>
+        <li><a href="#">אזור אישי</a></li>
+        <li><a href="#">התנתק</a></li>
+        <li>
+          <a
+            href="addpost"
+            >תן חפץ</a
+          >
+        </li>
+        <li><a href="#">קבל חפץ</a></li>
+      </ul>
+    </div>
+    <form class="search-form">
+      <input type="text" placeholder="חפש פריט" />
+      <button>חפש</button>
+    </form>
+    <div class="midoptions">
+      <div class="gallery">
+        <img
+          src="https://assetcdn.buhlergroup.com/rendition/874601345621/ab5fbfba5dc54202983d10bfb6473098/-TwebHeader_16x9"
+          width="390"
+        />
+        <div class="desc">
+          <a href="#"><h2>מזון</h2></a>
+        </div>
+      </div>
+      <div class="gallery">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUvcM_I0MRExBSwPtHnsrYZk1mHRLSV21vcw&usqp=CAU"
+          width="390"
+        />
+        <div class="desc">
+          <a href="#"><h2>טקסטיל</h2></a>
+        </div>
+      </div>
+      <div class="gallery">
+        <img
+          src="https://image.shutterstock.com/image-photo/toys-pets-dog-cat-rubber-260nw-1038526867.jpg"
+          width="390"
+        />
+        <div class="desc">
+          <a href="#"><h2>משחקים</h2></a>
+        </div>
+      </div>
+      <div class="gallery">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5FMlg2KeHE7nzPRkD_33J72X_TSu7yGs4-Q&usqp=CAU"
+          width="390"
+        />
+        <div class="desc">
+          <a href="#"><h2>ביגוד</h2></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
