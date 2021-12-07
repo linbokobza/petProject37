@@ -33,6 +33,7 @@
       </ul>
     </div>
     <form class="search-form">
+      {% csrf_token %}
       <input type="text" placeholder="חפש פריט" />
       <button>חפש</button>
     </form>

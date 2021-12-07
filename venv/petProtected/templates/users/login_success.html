@@ -11,7 +11,7 @@
   </head>
   <body>
     <form method="post" action="/signin" class="box2">
-
+      {% csrf_token %}
       <h3>Welcome to pet-protected!</h3>
       {% for message in messages %}
       <div

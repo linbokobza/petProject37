@@ -13,6 +13,7 @@
     <div class="addobject">
       <h1>תן חפץ</h1>
       <form class="state">
+        {% csrf_token %}
         <input type="text" name="" placeholder="כותרת" />
         <select class="category">
           <option>קטגוריה</option>

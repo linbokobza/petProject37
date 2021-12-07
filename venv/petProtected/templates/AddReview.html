@@ -13,6 +13,7 @@
     <div class="Review-box">
       <h2>Comments</h2>
       <form action="#">
+        {% csrf_token %}
         <input type="text" name="full_name" placeholder="שם מלא..." />
         <input type="email" name="email" placeholder="אימייל..." />
         <textarea
